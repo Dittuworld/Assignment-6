@@ -1,5 +1,5 @@
 var coinFlip;
-console.log("Coinflip streak");
+window.console.log("Coinflip streak");
 do {
     coinFlip = Math.round(Math.random());
 

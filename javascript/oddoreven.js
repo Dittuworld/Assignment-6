@@ -1,11 +1,11 @@
-document.write("<b>Odd/even problem</b>" + "<br/>")
+window.console.log("Odd/even problem" )
 
 for (var i = 0; i <= 15; i++)
  {
     if (i % 2 === 0) 
     {
-        document.write(i + ' is an even number' + "<br/>");
+      window.console.log(i + ' is an even number' );
     } else {
-      document.write(i + ' is an odd number' + "<br/>");
+      window.console.log(i + " is an odd number");
     }
 }
